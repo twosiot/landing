@@ -193,6 +193,19 @@ h2 {
   line-height: 1.55;
 }
 
+.site-footer {
+  border-top: 1px solid var(--line);
+  margin-top: 72px;
+  padding-top: 24px;
+}
+
+.site-footer p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 600;
+}
+
 @media (max-width: 720px) {
   .page-shell {
     width: min(100% - 32px, 1120px);
@@ -207,5 +220,9 @@ h2 {
   .work-section {
     grid-template-columns: 1fr;
     gap: 28px;
+  }
+
+  .site-footer {
+    margin-top: 56px;
   }
 }
